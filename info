@@ -6,3 +6,7 @@
 
 
 3. keep home page table and graph side by side
+
+
+
+MONGO_URL=mongodb+srv://divyanjali:diya%401510@expenzo.jvreo.mongodb.net/Expenzo?retryWrites=true&w=majority&appName=Expenzo
