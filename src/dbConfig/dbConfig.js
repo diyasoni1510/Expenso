@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 export default async function connect() {
   if (mongoose.connection.readyState === 1) {
     console.log("MongoDB already connected");
-    return; 
+    return;
   }
 
   try {
@@ -13,8 +13,8 @@ export default async function connect() {
     });
 
     console.log("MongoDB connected successfully");
-
   } catch (error) {
+    alert("MongoDB connection failed");
     console.error("Something went wrong during MongoDB connection:", error);
     throw new Error("MongoDB connection failed");
   }
